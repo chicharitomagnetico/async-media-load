@@ -1,0 +1,11 @@
+{
+	"name": "async-media",
+	"version": "0.0.1",
+	"main": "js/async-media-load.js",
+	"ignore": [
+		"luischange"
+	],
+	"dependencies": {
+		"jquery": ">=1.11.0"
+	}
+}

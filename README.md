@@ -23,4 +23,13 @@ This plugin will act on plain links pointing to rich media content and it will d
 How can I use it?
 -------
 
-For an example on how to use it view the index.html file in the test folder. 
+1. Link the async-media-load.js to your document
+2. Link the app.js to your document, or add it to your app
+3. Link the async.css and it's respective images to your app
+
+If you want to use and modify the SCSS version you can do it via bundle, just be sure to install the bundle gem doing
+> gem install bundle
+then
+> bundle exec compass watch
+
+For an example on how to use it view the index.html file in the test folder.

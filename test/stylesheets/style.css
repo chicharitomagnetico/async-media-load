@@ -1,0 +1,110 @@
+/* line 3, ../scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 8, ../scss/style.scss */
+html, body {
+  font-size: 100%;
+}
+
+/* line 11, ../scss/style.scss */
+body {
+  background: #FFFFFF;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.5;
+  position: relative;
+  cursor: auto;
+}
+
+/* line 23, ../scss/style.scss */
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 27, ../scss/style.scss */
+ul, ol, dl {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  list-style-position: inside;
+  font-family: inherit;
+}
+
+/* line 34, ../scss/style.scss */
+ul {
+  margin-left: 1.1rem;
+}
+
+/* line 37, ../scss/style.scss */
+.main-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 75rem;
+}
+
+/* line 45, ../scss/style.scss */
+.column, .columns {
+  position: relative;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  float: left;
+}
+
+/* line 51, ../scss/style.scss */
+.full {
+  width: 100%;
+}
+
+/* line 54, ../scss/style.scss */
+[class*="lista-bloque-"] {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625rem;
+}
+/* line 58, ../scss/style.scss */
+[class*="lista-bloque-"]:before, [class*="lista-bloque-"]:after {
+  content: " ";
+  display: table;
+}
+/* line 62, ../scss/style.scss */
+[class*="lista-bloque-"]:after {
+  clear: both;
+}
+/* line 65, ../scss/style.scss */
+[class*="lista-bloque-"] > li {
+  display: block;
+  height: auto;
+  float: left;
+  padding: 0 0.625rem 1.25rem;
+}
+
+/* line 73, ../scss/style.scss */
+.lista-bloque-tres > li {
+  width: 33.33333%;
+  list-style: none;
+}
+/* line 77, ../scss/style.scss */
+.lista-bloque-tres > li:nth-of-type(1n) {
+  clear: none;
+}
+/* line 80, ../scss/style.scss */
+.lista-bloque-tres > li:nth-of-type(3n+1) {
+  clear: both;
+}
+
+/* line 87, ../scss/style.scss */
+.lista-de-videos {
+  margin-top: 2rem;
+}
